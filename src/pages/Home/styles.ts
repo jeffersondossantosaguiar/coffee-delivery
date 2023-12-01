@@ -62,3 +62,4 @@ export const IconContainer = styled.span<IconContainerProps>`
   color: ${(props) => props.theme["background"]};
   background-color: ${(props) => props.theme[`${props.iconColor}`]};
 `
+export const ProductsContainer = styled.div``

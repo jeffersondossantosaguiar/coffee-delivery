@@ -1,6 +1,7 @@
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react';
 import coffee from '../../assets/coffee.png';
-import { HighLightContainer, HomeContainer, IconContainer, TagsContainer } from './styles';
+import { ProductCard } from '../../components/ProductCard';
+import { HighLightContainer, HomeContainer, IconContainer, ProductsContainer, TagsContainer } from './styles';
 
 export function Home() {
   return (
@@ -46,6 +47,9 @@ export function Home() {
           <img src={coffee} alt="" />
         </span>
       </HighLightContainer>
+      <ProductsContainer>
+        <ProductCard />
+      </ProductsContainer>
     </HomeContainer>
   );
 }
